@@ -1,28 +1,28 @@
 #!/bin/bash
 
-cp 'TEMPLATE.html' 'dune.html'
-mv 'dune.html' posts
+cp 'TEMPLATE.html' '5feetApart.html'
+mv '5feetApart.html' posts
 cd posts
-INPUTFILE=dune.html
+INPUTFILE=5feetApart.html
 
-NAME='Dune (2021)'
-GENRES='Sci-fi, Action, Hollywood' # Comma separated
-CLASS='Recommendable' # No caps required
-SCORE='7.9' # No /10 required
+NAME='Five Feet Apart (2019)'
+GENRES='Romance, Drama, Hollywood' # Comma separated
+CLASS='Council Class' # No caps required
+SCORE='8.8' # No /10 required
 
-AUDIENCE="Book fans definitely, but really anyone into the genre."
+AUDIENCE="Solo is best, maybe with a quiet friend"
 
-REWATCH="Pretty long and dense, so 8–9 months or so seems reasonable."
+REWATCH="Once a year"
 
-WINNER="Duncan Idaho (Jason Momoa)"
+WINNER="Stella (Haley Lu Richardson)"
 
-COMMENTS="If I had to sum up my take on this one, I’d probably say that the top-notch direction was masterclass-worthy, but the relatively average script kept it from being something really special. The entire movie is a joy to look at—for a relatively limited color palette, Denis Villeneuve does an incredible job crafting beautiful shots that perfectly convey the movie’s scale and overall atmosphere. Visual storytelling and attention to detail is unbelievable too. I’m serious, if it was possible to have a director win one of these, I would absolutely give Villeneuve first place without hesitation. Acting was pretty great across the board, but there weren’t particular standout performances. The narrative structure was a little wonky, probably because this was a part one, and I think that the lack of proper setups and payoffs made it harder to get properly invested in the plot. Pretty great overall though, definitely an impressive adaptation of some weighty source material."
+COMMENTS="Keep tissues on hand: CRYING WARNING. The chemistry between Hayley Lu Richardson and Cole Sprouse is adorable and completely believable - makes the movie. Doesn’t hurt that they’re super attractive, either. Score wasn’t exactly legendary, but it played its part really well, upheld the feels whenever it needed to. Has an incredible amount of heart, and it’ll get you thinking about things you might not think about usually - privilege of being healthy, having the chance to be with others, taking chances, etc. Better to watch alone, or at least with people who don’t talk a lot, so that you can appreciate it."
 
 DEFAULT_SPOILERS="Not really spoiler-sensitive."
 
-SPOILERS=$DEFAULT_SPOILERS
+SPOILERS="Ending messed me up. Straight up. Crying. Ending messed me up. Straight up. Crying. The pool scene was adorable, of course. Abby’s whole existence was alright at first, but a bit annoying later on; I recognize her importance to Stella’s character, so all is forgiven. Poe was much better than I thought he’d be – Moises Arias did a pretty solid job. The nurse’s relationship with her was really sweet, and I think that the youtube highlights were Stella’s opus. Birthday scene was great, and Cole really showed off his acting chops – facial expressions especially. May have been a bit long, but is definitely worth rewatching once a year."
 
-URL='https://www.dunemovie.com/assets/gallery/download/DU-T2-0050r.jpg'
+URL='https://lionsgate.brightspotcdn.com/8e/99/2efb94044239be9a67bdc96216f7/five-feet-apart-movies-bg-dsktp-01.jpg'
 
 
 
