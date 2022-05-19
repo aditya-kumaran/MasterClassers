@@ -1,28 +1,28 @@
 #!/bin/bash
 
-cp 'TEMPLATE.html' 'blackSwan.html'
-mv 'blackSwan.html' posts
+cp 'TEMPLATE.html' 'bladeRunner.html'
+mv 'bladeRunner.html' posts
 cd posts
-INPUTFILE=blackSwan.html
+INPUTFILE=bladeRunner.html
 
-NAME='Black Swan (2010)'
-GENRES='Drama, Horror, Hollywood' # Comma separated
-CLASS='Existent' # No caps required
-SCORE='6.2' # No /10 required
+NAME='Blade Runner (1982)'
+GENRES='Hollywood, Sci-fi, Thriller' # Comma separated
+CLASS='Rewatchable' # No caps required
+SCORE='7.1' # No /10 required
 
-AUDIENCE="Adults. People that appreciate ballet, people that like horror."
+AUDIENCE="Adults, realistic future sci-fi enthusiasts."
 
-REWATCH="Never."
+REWATCH="Probably have to watch it twice to understand. It’s 2h and pretty theoretical though."
 
-WINNER="Lily (Mila Kunis)"
+WINNER="Roy Batty (Rutger Hauer)"
 
-COMMENTS="I swear to god I wasn’t expecting this movie to be so damn scary. Well it was. Straight up, I watched it in the night thinking it was some ballet movie and I had the shock of my life. This is the scariest shit I’ve seen to date, and best believe I’m not watching it again. Of course, there’s a lot of imagery with Nina and Lily and the White and Black Swans, and the whole play is fine. But between Nina’s being crazy and her mom being the weirdest person to live EVER, this movie makes me feel SO UNCOMFORTABLE. But if you like horror and being creeped out and the ballet, then I’m betting you’re going to love this."
+COMMENTS="So this movie also doesn’t exactly have the right branding for new-comers. I thought this would be a normal dystopian thriller with a charismatic lead in Rick Deckard (Harrison Ford). But it’s really more in line with ethical, speculative science-fiction that isn’t as popular as you’d think. The movie is based around human-like androids called ‘replicants’ having escaped some prison/factory and Rick having to kill them (he’s a space policeman, which they call Blade Runner). So the message here is asking the audience what really differentiates the replicants from humans, if anything - especially given the characters’ vast repulsion with replicants. Roy, Pris (Daryl Hannah), and Rachael (Sean Young) all give great performances, and the end scene from Roy is easily the best and most pronounced scene in the movie. Pacing is pretty slow, and you really have to stick in there to last to the last 20 minutes (the good bit)."
 
 DEFAULT_SPOILERS="Not really spoiler-sensitive."
 
-SPOILERS=$DEFAULT_SPOILERS
+SPOILERS="So the big question is: Is Rick a replicant? Definitely the right way to go with the movie, and the only way to make this premise interesting. The unicorn motif - I honestly missed this - was a good storytelling device, and the rain speech at the end was wonderful. I just wished they wasted less time. Also Roy’s acting was great, but he kept doing really weird things for no reason (especially in the third act). The conversation between him and Tyrell (Joe Turkel) was good though."
 
-URL='https://assets3.thrillist.com/v1/image/2924952/1200x600/scale;'
+URL='https://cdn.wallpapersafari.com/68/57/PvnA3o.jpg'
 
 
 
