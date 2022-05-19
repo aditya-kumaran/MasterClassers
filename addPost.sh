@@ -1,29 +1,28 @@
 #!/bin/bash
 
-cp 'TEMPLATE.html' 'bladeRunner.html'
-mv 'bladeRunner.html' posts
+cp 'TEMPLATE.html' 'dune.html'
+mv 'dune.html' posts
 cd posts
-INPUTFILE=bladeRunner.html
+INPUTFILE=dune.html
 
-NAME='Blade Runner (1982)'
-GENRES='Hollywood, Sci-fi, Thriller' # Comma separated
-CLASS='Rewatchable' # No caps required
-SCORE='7.1' # No /10 required
+NAME='Dune (2021)'
+GENRES='Sci-fi, Action, Hollywood' # Comma separated
+CLASS='Recommendable' # No caps required
+SCORE='7.9' # No /10 required
 
-AUDIENCE="Adults, realistic future sci-fi enthusiasts."
+AUDIENCE="Book fans definitely, but really anyone into the genre."
 
-REWATCH="Probably have to watch it twice to understand. It’s 2h and pretty theoretical though."
+REWATCH="Pretty long and dense, so 8–9 months or so seems reasonable."
 
-WINNER="Roy Batty (Rutger Hauer)"
+WINNER="Duncan Idaho (Jason Momoa)"
 
-COMMENTS="So this movie also doesn’t exactly have the right branding for new-comers. I thought this would be a normal dystopian thriller with a charismatic lead in Rick Deckard (Harrison Ford). But it’s really more in line with ethical, speculative science-fiction that isn’t as popular as you’d think. The movie is based around human-like androids called ‘replicants’ having escaped some prison/factory and Rick having to kill them (he’s a space policeman, which they call Blade Runner). So the message here is asking the audience what really differentiates the replicants from humans, if anything - especially given the characters’ vast repulsion with replicants. Roy, Pris (Daryl Hannah), and Rachael (Sean Young) all give great performances, and the end scene from Roy is easily the best and most pronounced scene in the movie. Pacing is pretty slow, and you really have to stick in there to last to the last 20 minutes (the good bit)."
+COMMENTS="If I had to sum up my take on this one, I’d probably say that the top-notch direction was masterclass-worthy, but the relatively average script kept it from being something really special. The entire movie is a joy to look at—for a relatively limited color palette, Denis Villeneuve does an incredible job crafting beautiful shots that perfectly convey the movie’s scale and overall atmosphere. Visual storytelling and attention to detail is unbelievable too. I’m serious, if it was possible to have a director win one of these, I would absolutely give Villeneuve first place without hesitation. Acting was pretty great across the board, but there weren’t particular standout performances. The narrative structure was a little wonky, probably because this was a part one, and I think that the lack of proper setups and payoffs made it harder to get properly invested in the plot. Pretty great overall though, definitely an impressive adaptation of some weighty source material."
 
 DEFAULT_SPOILERS="Not really spoiler-sensitive."
 
-SPOILERS="So the big question is: Is Rick a replicant? Definitely the right way to go with the movie, and the only way to make this premise interesting. The unicorn motif - I honestly missed this - was a good storytelling device, and the rain speech at the end was wonderful. I just wished they wasted less time. Also Roy’s acting was great, but he kept doing really weird things for no reason (especially in the third act). The conversation between him and Tyrell (Joe Turkel) was good though."
+SPOILERS=$DEFAULT_SPOILERS
 
-URL='https://cdn.wallpapersafari.com/68/57/PvnA3o.jpg'
-
+URL='https://www.dunemovie.com/assets/gallery/download/DU-T2-0050r.jpg'
 
 
 
